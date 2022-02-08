@@ -42,10 +42,12 @@ li a {
     opacity: 85%;
 }
 
+
 /* BODY ELEMENTS */
 
 body {
     background-color: rgb(1 128 128);
+    text-align: center;
 }
 
 
@@ -106,6 +108,6 @@ body {
 .youtube-video-container {
     width: 240px;
     height: 560px;
-    text-align: center;
+    margin-left: 30vw;
 }
 
