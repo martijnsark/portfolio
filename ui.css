@@ -13,6 +13,19 @@ ul {
 	opacity: 85%;
 }
 
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition-duration: 0.2s;
+}
+
+	li a:hover {
+		background-color: rgb(0, 0, 0);
+	}
+
 .youtube-video-container {
   position: relative;
   overflow: hidden;
