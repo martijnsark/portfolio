@@ -25,7 +25,7 @@
 
     <div class="inleiding">
         <p>
-           hello my name is Martijn van der Willigen i am a 18 year old software student.<br>
+            hello my name is Martijn van der Willigen i am a 18 year old software student.<br>
             <br>
             i made this website to present myself as a person but also my projects and work ive done in the past.<br>
             <br>
@@ -70,5 +70,21 @@
         </iframe>
     </div>
 
+
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
 </body>
 </html>
