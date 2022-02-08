@@ -1,7 +1,17 @@
 body {
 	background-color: lightblue;
 	text-align: center;
+	/* GENERAL SETTINGS */
+
+	
+
+{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
 }
+
+/* NAV BAR */
 
 ul {
 	font-family: Helvetica, sans-serif;
@@ -11,6 +21,18 @@ ul {
 	overflow: hidden;
 	background-color: rgb(32,34,39);
 	opacity: 85%;
+}
+
+li {
+	float: left;
+}
+
+.edge {
+	margin-left: 40%;
+}
+
+.edge2 {
+	margin-left: 39.55%;
 }
 
 li a {
@@ -26,23 +48,131 @@ li a {
 		background-color: rgb(0, 0, 0);
 	}
 
-.youtube-video-container {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	opacity: 85%;
 }
 
-.youtube-video-container::after {
-  display: block;
-  content: "";
-  padding-top: 56.25%;
+/* BODY ELEMENTS */
+
+body {
+	background-image: url('background');
+	background-repeat: no-repeat;
 }
 
-	.youtube-video-container iframe {
-		position: absolute;
-		text-align: center;
-		top: 15%;
-		right: 15%;
-		width: 70%;
-		height: 70%;
+.headliner {
+	text-align: center;
+	margin-top: 120px;
+	color: white;
+}
+
+.font-1 {
+	font-family: Helvetica, sans-serif;
+	font-size: 40px;
+}
+
+.inleiding {
+	width: 80%;
+	height: 550px;
+	padding: 50px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.inleiding-text {
+	text-align: center;
+}
+
+.inleiding p {
+	margin-top: 2%;
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.datablok {
+	border: 3px solid black;
+	width: 80%;
+	height: 300px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.datablok-text {
+	margin-top: 200px;
+	text-align: center;
+}
+
+.custom-button {
+	background-color: Transparent;
+	border: none;
+	outline: hidden;
+	background-repeat: no-repeat;
+}
+
+.inleiding a {
+	background-color: rgb(0, 0, 0, 0.5);
+	border: 2px dashed white;
+	text-decoration: none;
+	color: white;
+	line-height: 250px;
+	padding: 0.6%;
+	font-size: 25px;
+	transition-duration: 0.2s;
+}
+
+	.inleiding a:hover {
+		background: none;
+		border: dashed 2px black;
+		border-radius: 20px;
+		color: black;
 	}
+
+.credits-container {
+	width: 90%;
+	height: 700px;
+	margin: auto;
+	padding: 10px;
+}
+
+	.credits-container h1 {
+		margin-top: 15%;
+		font-family: Helvetica, sans-serif;
+		font-size: 20px;
+		text-align: center;
+		color: white;
+	}
+
+	.credits-container p {
+		margin-top: 2%;
+		font-family: Helvetica, sans-serif;
+		font-size: 20px;
+		text-align: center;
+		color: white;
+	}
+
+
+.body-custom {
+	overflow: hidden;
+}
+
+.button-style {
+	margin-left: 275px;
+	border: dashed 2px black;
+	color: white;
+	cursor: pointer;
+	transition-duration: 0.2s;
+	background: none;
+	width: 150px;
+	height: 50px;
+	font-size: 20px;
+}
+	
