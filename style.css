@@ -46,7 +46,8 @@ li a {
 /* BODY ELEMENTS */
 
 body {
-    background-image: url("backgroundvid1.mov");
+    background-color: rgb(1 128 128);
+    text-align: center;
     color: azure;
 }
 
