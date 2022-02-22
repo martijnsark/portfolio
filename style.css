@@ -121,13 +121,11 @@ p.oblique {
 
 
 
-.box {
-   
-    width: 100%;
-    max-width: 250px;
+.button_image_container {
+   text-align: center;
+   width: 200px;
+   height: 150px;
+    
  }
- .box img {
-    width: 100%;
-    height: auto;
- }
+ 
  
