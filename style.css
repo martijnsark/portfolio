@@ -130,8 +130,4 @@ p.oblique {
     width: 100%;
     height: auto;
  }
- .box .btn {
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
- }
+ 
