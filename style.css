@@ -47,9 +47,11 @@ li a {
 
 body {
     background-image: url("images/tree_background.jpg");
-color: salmon;
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center;
+    color: crimson;
     text-align: center;
-  
 }
 
 
