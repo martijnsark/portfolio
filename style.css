@@ -119,3 +119,20 @@ p.oblique {
     margin-left: 30vw;
 }
 
+
+
+.box {
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+ }
+ .box img {
+    width: 100%;
+    height: auto;
+ }
+ .box .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
