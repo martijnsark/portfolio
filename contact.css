@@ -1,0 +1,83 @@
+/* NAV BAR */
+
+ul {
+    font-family: Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(32,34,39);
+    opacity: 85%;
+}
+
+li {
+    float: left;
+}
+
+.edge {
+    margin-left: 40%;
+}
+
+.edge2 {
+    margin-left: 39.55%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+    li a:hover {
+        background-color: rgb(0, 0, 0);
+    }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 85%;
+}
+
+
+/* BODY ELEMENTS */
+
+body {
+    background-color: rgb(1 128 128);
+    text-align: center;
+    color: azure;
+}
+
+
+.font-1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.inleiding {
+    width: 80%;
+    height: 600px;
+    padding: 50px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: whitesmoke;
+}
+
+.inleiding p {
+    margin-top: 2%;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+.youtube-video-container {
+    width: 240px;
+    height: 560px;
+    margin-left: 30vw;
+}
