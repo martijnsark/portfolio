@@ -59,6 +59,14 @@ body {
     font-size: 40px;
 }
 
+.inleiding p {
+    margin-top: 2%;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
 
 .inleiding {
     width: 100%;
