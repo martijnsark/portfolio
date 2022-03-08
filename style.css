@@ -85,24 +85,6 @@ p.oblique {
     color: white;
 }
 
-.inleiding a {
-    background-color: rgb(0, 0, 0, 0.5);
-    border: 2px dashed white;
-    text-decoration: none;
-    color: white;
-    line-height: 250px;
-    padding: 0.6%;
-    font-size: 25px;
-    transition-duration: 0.2s;
-}
-
-    .inleiding a:hover {
-        background: none;
-        border: dashed 2px black;
-        border-radius: 20px;
-        color: black;
-    }
-
 .body-custom {
     overflow: hidden;
 }
