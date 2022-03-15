@@ -45,11 +45,7 @@ li a {
 
 /* BODY ELEMENTS */
 
-@media only screen and (max-width: 100%) {
-    body {
-      background-color: lightblue;
-    }
-  }
+
 
 body {
     background-image: url("images/tree_background.jpg");
