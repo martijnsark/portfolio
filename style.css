@@ -15,7 +15,7 @@ li {
 }
 
 .edge {
-    margin-left: 40%;
+    margin-left: 1%;
 }
 
 .edge2 {
@@ -50,9 +50,6 @@ li a {
       background-color: lightblue;
     }
   }
-
-
-
 
 body {
     background-image: url("images/tree_background.jpg");
