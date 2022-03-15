@@ -65,13 +65,13 @@ body {
 
 .font-1 {
     font-family: Helvetica, sans-serif;
-    font-size: 8%;
+    font-size: 6%;
 }
 
 .inleiding p {
     margin-top: 2%;
     font-family: Helvetica, sans-serif;
-    font-size: 100%;
+    font-size: 80%;
     text-align: center;
     color: white;
 }
