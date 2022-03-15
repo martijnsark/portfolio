@@ -68,7 +68,10 @@ body {
     font-size: 6%;
 }
 
-
+.inleiding p {
+    font-family: Helvetica, sans-serif;
+    font-size: 120%;
+}
 
 
 .inleiding {
