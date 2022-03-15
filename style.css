@@ -25,9 +25,8 @@ li {
 li a {
     display: block;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 8% 8%;
-    text-decoration: none;
     transition-duration: 0.2s;
 }
 
