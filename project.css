@@ -46,7 +46,7 @@ li a {
 /* BODY ELEMENTS */
 
 body {
-    background-image: url("images/landscape.jpeg");
+    background-color: lightblue;
     background-size:     cover;                    
     background-repeat:   no-repeat;
     background-position: center center;
