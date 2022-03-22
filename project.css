@@ -46,11 +46,11 @@ li a {
 /* BODY ELEMENTS */
 
 body {
-    background-color: lightblue;
+    background-color: black;
     background-size:     cover;                    
     background-repeat:   no-repeat;
     background-position: center center;
-    color: black;
+    color: azure;
     text-align: center; 
 }
 
