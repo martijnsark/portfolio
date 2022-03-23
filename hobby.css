@@ -44,6 +44,13 @@ li a {
 
 /* BODY ELEMENTS */
 
+body {
+    background-color: rgb(1 128 128);
+    color: azure;
+}
+
+
+
 .container{
     width: 25%;
     height: 25%;
