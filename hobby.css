@@ -93,13 +93,20 @@ body {
   color: black;
 }
 
-        body {
-          background-color: black;
-        }
-        
-        @media only screen and (max-width: 600px) {
-          body {
-            background-color: black;
-          }
-        }
+@media screen and (max-width: 600px) {
+    .column {
+      width: 25%;
+      height: 25%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
   
+  @media screen and (max-width: 600px) {
+    .container {
+      width: 25%;
+      height: 25%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
