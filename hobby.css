@@ -46,7 +46,6 @@ li a {
 
 body {
     background-color: rgb(1 128 128);
-    color: azure;
 }
 
 .inleiding p {
@@ -63,6 +62,7 @@ body {
     margin-top: 10%;
     margin-bottom: 5%;
     font-family: 'Crimson Pro', serif;
+    color: azure;
 }
 
 
@@ -85,6 +85,7 @@ body {
   content: "";
   display: table;
   clear: both;
+  color: black;
 }
 
 @media screen and (max-width: 600px) {
