@@ -91,24 +91,5 @@ body {
   color: black;
 }
 
-@media screen and (max-width: 3600px) {
-    .column {
-      width: 25%;
-      height: 25%;
-    }
-  }
 
-  @media screen and (max-width: 3600px) {
-    .container{
-      width: 25%;
-      height: 25%;
-    }
-  }
-
-  @media screen and (max-width: 3600px) {
-    .row {
-      width: 25%;
-      height: 25%;
-    }
-  }
   
