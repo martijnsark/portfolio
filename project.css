@@ -87,24 +87,7 @@ body {
 }
 
 
-.container1 {
-    width: 50%;
-    height: 25%;
-    float: left;
-    color: black;
-    padding-bottom: 3%;
-}
 
-.column1 {
-    float: left;
-    width: 30%;
-    padding: 10px 10px;
-    color: black;
-  }
-
-  .row1 {margin: 0 -5px;
-    color: black;
-}
 
 
 /* Clear floats after the columns */
@@ -133,28 +116,3 @@ body {
     }
   }
 
-/* Clear floats after the columns */
-.row1:after {
-    content: "";
-    display: table;
-    clear: both;
-    color: black;
-  }
-  
-  @media screen and (max-width: 1200px) {
-      .column1 {
-        width: 50%;
-        height: 25%;
-        display: block;
-        margin-bottom: 20px;
-      }
-    }
-    
-    @media screen and (max-width: 1200px) {
-      .container1 {
-        width: 50%;
-        height: 25%;
-        display: block;
-        margin-bottom: 20px;
-      }
-    }
